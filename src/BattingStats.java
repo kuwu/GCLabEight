@@ -18,15 +18,15 @@ public class BattingStats {
     // array for batting stats
     int[] bat = new int[atBat];
 
-    do {
+   do {
 
       // assigning batter's results
-      System.out.println("0 = out, 1 = Single, 2 = Double, 3 = Triple, 4 = HomeRun\n");
+      System.out.println("\n0 = out, 1 = Single, 2 = Double, 3 = Triple, 4 = HomeRun\n");
       count = getResults(scan, bat, count);
       getBatAverage(atBat, count);
       getSluggerAverage(atBat, bat);
 
-      System.out.println("do you want to continue?   Please type 'y");
+      System.out.println("do you want to continue?   Please type (y/n)");
       input = scan.next();
 
 
